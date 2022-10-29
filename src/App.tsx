@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/default'
-import { Router } from './components/Router'
+import { Router } from './Router'
 
 export function App() {
   return (
