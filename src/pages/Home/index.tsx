@@ -32,11 +32,7 @@ export function Home() {
     },
   })
 
-  const { handleSubmit, watch, formState, reset } = newCycleForm
-
-  // const { errors } = formState
-
-  // console.log(errors)
+  const { handleSubmit, watch, reset } = newCycleForm
 
   function handleCreateNewCycle(data: NewCycleFormData) {
     createNewCycle(data)
